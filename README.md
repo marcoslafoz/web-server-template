@@ -57,7 +57,7 @@
 │   ├── 📂 stories
 │   │   ├── 📖 hello-world
 ├── 🎨 tailwind.config.js
-└── vite.config.ts
+└── ⚡ vite.config.ts
 ```
 
 ## 💡 Contributing
