@@ -5,9 +5,13 @@ export interface HelloWorldProps {}
 
 export const HelloWorld: React.FC<HelloWorldProps> = () => {
   return (
-    <div>
-      <div>Hello World!</div>
-      <img className='size-10' src={SvgAsset} alt='' />
+    <div className='flex items-center justify-center min-h-screen bg-gray-200'>
+      <div className='text-center p-6 bg-white shadow-lg rounded-xl'>
+        <h1 className='text-2xl font-bold text-gray-800 mb-4'>Hello World!</h1>
+        <img className='w-16 h-16 mx-auto' src={SvgAsset} alt='Hello World SVG' />
+        <p className='text-sm font-bold text-gray-500 mt-4'>React TS + Vite + Tailwind</p>
+        <p className='text-sm font-bold text-gray-300 mt-2'>Template by <a href='https://github.com/marcoslafoz'>@marcoslafoz</a></p>
+      </div>
     </div>
   )
 }
