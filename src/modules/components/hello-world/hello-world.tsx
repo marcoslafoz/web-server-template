@@ -10,7 +10,9 @@ export const HelloWorld: React.FC<HelloWorldProps> = () => {
         <h1 className='text-2xl font-bold text-gray-800 mb-4'>Hello World!</h1>
         <img className='w-16 h-16 mx-auto' src={SvgAsset} alt='Hello World SVG' />
         <p className='text-sm font-bold text-gray-500 mt-4'>React TS + Vite + Tailwind</p>
-        <p className='text-sm font-bold text-gray-300 mt-2'>Template by <a href='https://github.com/marcoslafoz'>@marcoslafoz</a></p>
+        <p className='text-sm font-bold text-gray-300 mt-2'>
+          Template by <a href='https://github.com/marcoslafoz'>@marcoslafoz</a>
+        </p>
       </div>
     </div>
   )

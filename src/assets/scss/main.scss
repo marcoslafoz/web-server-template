@@ -1,5 +1,6 @@
 @import url('./variables.scss');
 @import url('./fonts.scss');
+@import url('./fix.scss');
 
 @tailwind base;
 @tailwind components;
@@ -9,24 +10,36 @@
 
 body {
   color: var(--color-primary);
-  font-family: var(--font-regular);
-  font-size: var(--font-size-regular);
+  font-family: var(--studentspace-regular);
   min-height: 100vh;
 }
 
 /*========================== Font style ==========================*/
 
-.text-bold {
-  font-family: var(--font-bold);
+.studentspace-regular {
+  font-family: var(--studentspace-regular);
 }
 
-.text-medium {
-  font-family: var(--font-medium);
+.studentspace-medium {
+  font-family: var(--studentspace-medium);
 }
 
-/*========================== Font color ==========================*/
+.studentspace-bold {
+  font-family: var(--studentspace-bold);
+}
 
-.font-color-primary {
+/*========================== Color ==========================*/
+
+.custom-color-primary {
   color: var(--color-primary);
 }
 
+.custom-color-secondary {
+  color: var(--color-secondary);
+}
+
+/*========================== Background color ==========================*/
+
+.custom-bg-color-primary {
+  background-color: var(--color-primary);
+}
