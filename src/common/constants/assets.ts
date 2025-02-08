@@ -1,3 +1,3 @@
-const SvgAsset = '/assets/images/svg/svg.svg'
+const SvgAsset = '/assets/images/svg.svg'
 
 export { SvgAsset }
