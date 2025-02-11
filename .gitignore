@@ -27,3 +27,5 @@ dist-ssr
 
 # Custom
 .env
+dist
+dev-dist
