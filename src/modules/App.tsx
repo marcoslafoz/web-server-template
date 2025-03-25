@@ -2,7 +2,6 @@ import React from 'react'
 import { SvgAsset } from '../common/constants/assets'
 import { ComponentePrueba } from './components/componente-ejemplo'
 
-
 export const App: React.FC = () => {
   return (
     <main>
@@ -14,7 +13,7 @@ export const App: React.FC = () => {
           <p className='text-sm font-bold text-gray-300 mt-2'>
             Template by <a href='https://github.com/marcoslafoz'>@marcoslafoz</a>
           </p>
-          <ComponentePrueba/>
+          <ComponentePrueba />
         </div>
       </div>
     </main>
